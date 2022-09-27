@@ -14,3 +14,18 @@ dependencyResolutionManagement {
 }
 rootProject.name = "Fixkin"
 include ':app'
+include ':core'
+include ':core:data'
+include ':core:model'
+include ':core:ui'
+include ':core:network'
+include ':core:database'
+include ':core:preferences'
+include ':customui'
+include ':customui:fabmenu'
+include ':customui:checklogcalendar'
+include ':customui:graph'
+include ':feature'
+include ':feature:authentication'
+include ':feature:authentication:authentication_domain'
+include ':feature:authentication:authentication_ui'
