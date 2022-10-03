@@ -9,4 +9,7 @@ object Retrofit {
     const val okHttp = "com.squareup.okhttp3:okhttp:$okHttpVersion"
     const val okHttpLoggingInterceptor = "com.squareup.okhttp3:logging-interceptor:$okHttpVersion"
     const val okHttpMockWebServer = "com.squareup.okhttp3:mockwebserver:$okHttpVersion"
+
+    private const val moshiKotlinVersion = "1.14.0"
+    const val moshiKotlin = "com.squareup.moshi:moshi-kotlin:$moshiKotlinVersion"
 }

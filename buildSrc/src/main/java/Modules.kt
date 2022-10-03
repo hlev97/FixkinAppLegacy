@@ -16,6 +16,7 @@ object Modules {
 
     const val feature = ":feature"
     const val featureAuthentication = ":feature:authentication"
+    const val featureAuthenticationData = ":feature:authentication:authentication_data"
     const val featureAuthenticationDomain = ":feature:authentication:authentication_domain"
     const val featureAuthenticationUi = ":feature:authentication:authentication_ui"
 }
